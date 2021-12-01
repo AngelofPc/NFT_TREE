@@ -9,8 +9,13 @@ const client = ipsfHttpClient('https://ipfs.infura.io:5001/api/v0');
 
 import { NFTADDRESS, NFTMARKETADDRESS } from '../config';
 
-import NFT from '../artifacts/contracts/NFT.sol/NFT.json';
-import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json';
+// DEV
+// import NFT from '../artifacts/contracts/NFT.sol/NFT.json';
+// import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json';
+
+// PROD
+import NFT from '../abi/NFT.sol/NFT.json';
+import Market from '../abi/NFTMarket.sol/NFTMarket.json';
 
 export default function CreateItem() {
   const [fileUrl, setFileUrl] = useState(null);
