@@ -3,4 +3,5 @@ module.exports = {
     domains: ['ipfs.infura.io'],
   },
   reactStrictMode: true,
+  exportTrailingSlash: true,
 };
