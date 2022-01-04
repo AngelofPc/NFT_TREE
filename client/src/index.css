@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Taviraj:wght@600;700&family=Tinos:wght@700&display=swap');
+.btn {
+    font-family: Cantarell;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 4px 38px;
+    text-decoration: none;
+  }
+
+  .btn-border-white{
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .btn-border-green{
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    border: 1px solid #35705A;
+  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
