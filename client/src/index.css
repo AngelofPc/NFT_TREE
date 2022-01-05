@@ -20,6 +20,21 @@
     border-radius: 10px;
     border: 1px solid #35705A;
   }
+.border-box{
+    background:  linear-gradient(125.29deg, #FB9F89 3.2%, #6F3729 28.87%, #6FD1AC 64%, #004028 96.89%);
+}
+.black {
+  color: rgba(0, 0, 0, 0.65);
+}
+.black1{
+  color: rgba(0, 0, 0, 0.61)
+}
+.square-gradient{
+background: linear-gradient(242.15deg, #C4C4C4 0.45%, #EBFDD4 43.1%, #F1FEE2 64.22%, #C5C5C5 99.55%);
+
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
