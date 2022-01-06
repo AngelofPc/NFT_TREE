@@ -8,6 +8,7 @@ module.exports = {
         bgradr: '#38ef7d',
         bgradl: '#11998e',
         bg: '#081C15',
+        bgFoot: '#7A7E92',
         bgFooter: '#40916C',
         'text-africa': '#FB9F89'
       }
@@ -38,6 +39,7 @@ module.exports = {
       px: '1px',
       0.18: '18%',
       0.6: '60%',
+      0.4: '40%',
       0: '0px',
       0.5: '0.125rem',
       1: '0.25rem',
