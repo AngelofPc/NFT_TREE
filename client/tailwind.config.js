@@ -26,7 +26,7 @@ module.exports = {
 
       black: colors.black,
       white: colors.white,
-      gray: colors.coolGray,
+      gray: colors.gray,
       red: colors.red,
       yellow: colors.amber,
       green: colors.emerald,
@@ -61,6 +61,8 @@ module.exports = {
       16: '4rem',
       20: '5rem',
       24: '6rem',
+      25: '6.25rem',
+      26: '6.5rem',
       28: '7rem',
       32: '8rem',
       36: '9rem',
