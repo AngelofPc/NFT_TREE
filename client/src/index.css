@@ -55,6 +55,9 @@
     width: 376.96px;
     height: 380px;
 }
+.modal-css {
+    background: rgba(66, 208, 157, 0.5);
+}
 
 @tailwind base;
 @tailwind components;

@@ -11,13 +11,13 @@ function Carousel({ name, image, liked }) {
                 <div className=" w-[227.5px] h-[213.58px] relative square-gradient rounded-3xl">
                     {liked ? (
                         <img
-                            className="z-10 absolute left-50 top-3"
+                            className=" absolute left-50 top-3"
                             src={red}
                             alt=""
                         />
                     ) : (
                         <img
-                            className="z-10 absolute left-50 top-3"
+                            className=" absolute left-50 top-3"
                             src={white}
                             alt=""
                         />
